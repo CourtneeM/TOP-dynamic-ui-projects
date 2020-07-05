@@ -2,3 +2,25 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.drop-down-menu {
+  margin-top: 100px;
+  margin-left: 600px;
+  padding-top: 20px;
+  border: 1px solid #000;
+  display: inline-block;
+}
+
+.title {
+  margin: 0;
+  padding: 10px;
+  border-bottom: 1px solid #000;
+}
+
+.choice {
+  padding: 10px;
+}
+
+.hidden {
+  display: none;
+}

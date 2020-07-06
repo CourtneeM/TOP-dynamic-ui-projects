@@ -20,6 +20,7 @@ body {
 }
 
 #img-container {
+  position: relative;
   height: 600px;
   width: 900px;
   background-color: #000;
@@ -32,7 +33,6 @@ body {
 
 #arrow-btns {
   position: relative;
-  
 }
 
 #previous-img-btn, #next-img-btn {
@@ -54,5 +54,20 @@ body {
 
 #next-img-btn {
   right: -50px;
+}
 
+#img-progress {
+  position: absolute;
+  bottom: 0;
+  right: 300px;
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+
+#img-progress p {
+  width: 10px;
+  height: 10px;
+  border: 2px solid #fff;
+  border-radius: 50%;
 }

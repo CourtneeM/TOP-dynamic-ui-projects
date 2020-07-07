@@ -42,18 +42,22 @@ body {
   font-size: 2rem;
   font-weight: 800;
   color: #fff;
-  background-color: #ccc;
-  border: 5px solid #ccc;
+  border: 5px solid #fff;
   border-radius: 50%;
   cursor: pointer;
+  opacity: 0.2;
+}
+
+#previous-img-btn:hover , #next-img-btn:hover {
+  opacity: 0.7;
 }
 
 #previous-img-btn {
-  left: -50px;
+  left: 10px;
 }
 
 #next-img-btn {
-  right: -50px;
+  right: 10px;
 }
 
 #img-progress {
